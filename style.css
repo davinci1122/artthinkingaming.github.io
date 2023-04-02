@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 25px;
+    margin: 0;
+  }
+  
+  p {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  button {
+    display: block;
+    margin: 10px auto;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #photo-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  #photo-container img {
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    border: 0px solid white;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  }
+  
+  #theme-container {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
